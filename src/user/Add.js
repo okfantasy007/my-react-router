@@ -8,7 +8,7 @@ class Comp extends Component {
 
 	render() {
 		return (
-			<div>个人中心</div>
+			<div>添加用户</div>
 		);
 	}
 

@@ -19,7 +19,7 @@ class App extends Component {
 						<Switch>
 							<Route path="/home" exact component={Home}/>
 							<Route path="/profile" component={Profile}/>
-							<Route path="/user/:id/:name" component={User}/>
+							<Route path="/user" component={User}/>
 							<Redirect to="/home"/>
 						</Switch>
 					</div>

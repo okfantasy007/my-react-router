@@ -17,6 +17,7 @@ class Comp extends Component {
 		const matchRes = pathname.match(regexp);
 		if (matchRes) {
 			console.log(matchRes);// ["/user/1/2", "1", "2", index: 0, input: "/user/1/2", groups: undefined]
+			// eslint-disable-next-line
 			const [url, ...values] = matchRes;
 			for (let i = 0; i < keys.length; i++) {
 				let key = keys[i];
